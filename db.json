@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": "2b76",
+      "firstName": "Dibya",
+      "lastName": "rawat",
+      "phone": "222222222",
+      "email": "test12@gmail.com"
+    },
+    {
+      "id": "2b76",
+      "firstName": "Dibya",
+      "lastName": "rawat",
+      "phone": "22222222",
+      "email": "test12@gmail.com",
+      "address": ""
+    },
+    {
+      "id": "2b76",
+      "firstName": "Dibya",
+      "lastName": "rawat",
+      "phone": "22222222",
+      "email": "test12@gmail.com",
+      "address": ""
+    }
+  ]
+}
