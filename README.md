@@ -2,7 +2,7 @@
 About:** CRUD (Create, Read, Update, Delete) web application for managing user data.
 The application is designed with extensibility in mind, allowing new fields to be added with minimal code changes.
 
-** live:** 
+** live:** :  https://annurrag.github.io/crud-app/
 
 Getting Started(Local setup)
 1. Clone the repository
