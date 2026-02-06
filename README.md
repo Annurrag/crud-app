@@ -1,16 +1,54 @@
-# React + Vite
+**CRUD Webpage for User Info:****
+About:** CRUD (Create, Read, Update, Delete) web application for managing user data.
+The application is designed with extensibility in mind, allowing new fields to be added with minimal code changes.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+** live:** 
 
-Currently, two official plugins are available:
+Getting Started(Local setup)
+1. Clone the repository
+   git clone <repo-url>
+   cd <project-folder>
+2. Install Dependencies
+   npm install
+3. Start Mock API (JSON Server)
+   npm run dev
+   this starts the mock api at:
+   http://localhost:3001/users
+4. start react app:
+   npm run dev
+ Features
+1. User Management (CRUD)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Create a new user
+View all users
+Update existing user details
+Delete a user
 
-## React Compiler
+2. User Form Fields
+First Name
+Last Name
+Phone Number
+Email Address
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Each field includes:
+Required field validation
+Input validation (e.g. email format)
 
-## Expanding the ESLint configuration
+3. Extensible Architecture
+Configuration-driven form rendering
+New fields (e.g. Date of Birth, Address) can be added with minimal changes
+Validation and UI stay in sync
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. UI & UX
+Clean and user-friendly layout
+Styled using Tailwind CSS
+Simple, intuitive interaction flow
+
+ **Tech Stackb:**
+Frontend: React (Vite)
+Styling: Tailwind CSS
+Form Handling: React Hook Form
+Validation: Yup
+Mock API: JSON Server
+
+Deployment: github pages
